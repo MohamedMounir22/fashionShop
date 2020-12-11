@@ -24,8 +24,8 @@ namespace fashionShop.Views
         {
             var catList = new List<Category>();
             catList.Add(new Category { Image = "summerCol.png", Title = "SUMMER COLLECTION", Caption = "BEST DISCOUNT THIS SEASON" });
-            catList.Add(new Category { Image = "womenCol.png", Title = "WOMEN'S CLOTHINGS", Caption = "UP TO 50% OFF ON EVERY ITEM" });
-            catList.Add(new Category { Image = "elegantCol.png", Title = "ELEGANT CLOTHINGS", Caption = "UNQUE COLLECTIONS AND STYLES" });
+            catList.Add(new Category { Image = "MINIDRESS.jpg", Title = "WOMEN'S CLOTHINGS", Caption = "UP TO 50% OFF ON EVERY ITEM" });
+            catList.Add(new Category { Image = "coat.jpg", Title = "ELEGANT CLOTHINGS", Caption = "UNQUE COLLECTIONS AND STYLES" });
             return catList;
         }
     }
